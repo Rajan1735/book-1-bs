@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster+Two&family=Patua+One&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500&family=Rubik:wght@300;600&family=Sniglet&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1{
+    margin-top: 45px;
+}
+.section-1-users{
+    color: #3D3D3D;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    
+}
+
+.has-search .form-control-feedback {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+.notification-icon{
+    padding: 5px;
+    border: 1px solid rgb(237, 231, 231);
+    border-radius: 20%;
+}
+
+.table-heading{
+    color: #1E1E1E;
+leading-trim: both;
+text-edge: cap;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.table-content{
+    color: #7F7F7F;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.active-text-green {
+    color: green;
+}
+
+.custom-modal .modal-dialog {
+    max-width: 80%; /* You can adjust the percentage as needed */
+}
