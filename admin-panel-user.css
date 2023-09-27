@@ -27,6 +27,12 @@
     
 }
 
+/* .form-control{
+    border-radius: 40px;
+    
+} */
+
+
 .has-search .form-control-feedback {
     border-radius: 50%;
     position: absolute;
@@ -44,30 +50,26 @@
 .notification-icon{
     padding: 5px;
     border: 1px solid rgb(237, 231, 231);
-    border-radius: 20%;
+    border-radius: 30%;
 }
 
 .table-heading{
     color: #1E1E1E;
-leading-trim: both;
-text-edge: cap;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
 }
 
 
 .table-content{
     color: #7F7F7F;
-    leading-trim: both;
-    text-edge: cap;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    
 }
 
 
@@ -77,4 +79,34 @@ line-height: normal;
 
 .custom-modal .modal-dialog {
     max-width: 80%; /* You can adjust the percentage as needed */
+}
+
+
+#ModalLoginForm .modal-header {
+    border-bottom: none;
+}
+
+
+.add-user-modal-box{
+    padding:2px 30px;
+    border-radius: 25px;
+}
+.upload-image{
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 25px;
+    
+}
+
+
+
+
+@media (max-width: 576px) {
+    .btn.no-padding {
+        padding: 1px;
+        padding-left: 0;
+        padding-right: 0;
+        /* margin:5px; */
+        /* ms-3 px-5 mt-3 */
+    }
 }
