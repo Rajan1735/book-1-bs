@@ -14,21 +14,20 @@
     <section class="section-1">
         <div class="container">
             <div class="row">
-                <div class="col-1 col-sm-3 col-md-1 col-lg-2 col-xl-2 col-xxl-2 ">
+                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 ">
                     <h1 class="section-1-users">Users</h1>
                 </div>
 
-                <div class="col-0 col-sm-1 col-md-5 col-lg-4 col-xl-5 col-xxl-5">
-                      <!-- empty div -->
-                </div>
+                <!-- <div class="col-0 col-sm-1 col-md-5 col-lg-4 col-xl-5 col-xxl-5">
+                     
+                </div> -->
 
-                <div class="col-8 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-                    <div class="form-group has-search" style="border-radius: 30px; overflow: hidden;">
-                        <span class="form-control-feedback" style="border-radius: 30px;"><img src="images/search 1.svg" alt=""></span>
-                        <input type="text" class="form-control" placeholder="Search Anything" style="border-radius: 30px;">
+                <div class="col-7 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 offset-0 offset-sm-1 offset-md-2 offset-lg-4 offset-xl-5 offset-xxl-5">
+                    <div class="form-group has-search" >
+                        <span class="form-control-feedback" ><img src="images/search 1.svg" alt=""></span>
+                        <input type="text" class="form-control" placeholder="Search Anything" >
                     </div>
                     
-
                 </div>
 
                 <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1 ">
@@ -66,73 +65,67 @@
                 <!-- Modal HTML Markup -->
             <div id="ModalLoginForm" class="modal fade ">
                 <div class="modal-dialog   modal-xl modal-xxl modal-dialog-centered custom-modal" role="document">
-                    <div class="modal-content m-5 " >
+                    <div class="modal-content " >
                         <div class="modal-header">
-                            <h1 class="modal-title section-1-users mt-1 mb-2">Add User</h1>
-                            <button type="button" class=" btn-close " data-dismiss="modal"></button>
-                            <!-- <button type="button" class="btn-close" aria-label="Close"></button> -->
+                            <h1 class="modal-title section-1-users mt-3 mb-2 ms-3 ">Add User</h1>
+                            <button type="button" class=" btn-close me-1 mt-0" data-dismiss="modal"></button>
+                            
                         </div>
-                        <div class="modal-body ms-2 me-2">
+                        <div class="modal-body mt-3 mb-3 ms-3">
                             <div class="row">
                             <form role="form" method="POST" action="" class="col-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <label class="control-label">First Name</label>
+                                <div class="row mb-4">
+                                    <div class="form-group col-md-6 ">
+                                        <label class="control-label  mb-2 me-3">First Name</label>
                                         <div>
-                                            <input type="text" class="form-control input-lg" name="first_name" placeholder="Enter your first name">
+                                            <input type="text" class="form-control input-lg mb-3 " name="first_name" placeholder="Enter your first name">
                                         </div>
                                     </div>
 
                                     <div class="form-group col-md-6">
-                                        <label class="control-label">Last Name</label>
+                                        <label class="control-label mb-2 me-3">Last Name</label>
                                         <div>
-                                            <input type="text" class="form-control input-lg" name="last_name" placeholder="Enter your last name">
+                                            <input type="text" class="form-control input-lg " name="last_name" placeholder="Enter your last name">
                                         </div>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
+                                <div class="row mb-4">
                                     <div class="form-group col-md-6">
-                                        <label class="control-label">Email</label>
+                                        <label class="control-label  mb-2 me-3">Email</label>
                                     <div>
-                                        <input type="email" class="form-control input-lg" name="email" placeholder="Enter your email">
+                                        <input type="email" class="form-control input-lg mb-3 " name="email" placeholder="Enter your email">
                                     </div>
                                     </div>
 
                                     <div class="form-group col-md-6">
-                                        <label class="control-label">Phone</label>
+                                        <label class="control-label  mb-2 me-3">Phone</label>
                                     <div>
-                                        <input type="text" class="form-control input-lg" name="phone" placeholder="Enter your Phone Number">
+                                        <input type="text" class="form-control input-lg " name="phone" placeholder="Enter your Phone Number">
                                     </div>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
+                                <div class="row mb-4">
                                     <div class="form-group col-md-6">
-                                        <label class="control-label">Location</label>
+                                        <label class="control-label  mb-2 me-3">Location</label>
                                         <div>
-                                            <input type="text" class="form-control input-lg" name="location" placeholder="Enter your location">
+                                            <input type="text" class="form-control input-lg mb-3 " name="location" placeholder="Enter your location">
                                         </div>
                                     </div>
 
                                     <div class="form-group col-md-6">
-                                        <label class="control-label">City</label>
+                                        <label class="control-label  mb-2 me-3">City</label>
                                     <div>
-                                        <input type="text" class="form-control input-lg" name="city" placeholder="Enter your City Name">
+                                        <input type="text" class="form-control input-lg " name="city" placeholder="Enter your City Name">
                                     </div>
                                     </div>
                                 </div>
 
 
-                                <div class="form-group mt-3 mb-2">
-                                    <div>
-                                        <button type="submit" class="btn btn-dark mt-4 add-user-modal-box ">
-                                            Add User
-                                        </button>
-                                    </div>
-                                </div>
+                                
                             </form>
 
 
@@ -156,6 +149,14 @@
 
                             </form>
 
+                            <div class="form-group mt- mb-2">
+                                <div>
+                                    <button type="submit" class="btn btn-dark mt-4 add-user-modal-box pt-2 pb-2 ">
+                                        Add User
+                                    </button>
+                                </div>
+                            </div>
+
                         </div>
 
 
@@ -164,7 +165,7 @@
 
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
+            </div>
 
 
 
@@ -292,5 +293,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="path/to/bootstrap.min.js"></script>
 </body>
 </html>

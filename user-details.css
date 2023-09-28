@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster+Two&family=Patua+One&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500&family=Rubik:wght@300;600&family=Sniglet&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1{
+    margin-top: 45px 30px;
+}
+.section-1-users{
+    color: #3D3D3D;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    
+}
+
+.form-group .has-search{
+    border-radius: 50px;
+}
+
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+.notification-icon{
+    padding: 5px;
+    border: 1px solid rgb(237, 231, 231);
+    border-radius: 30%;
+}
+
+.user-card{
+    border-radius: 20px;
+    border: 1px solid rgb(126, 126, 123);
+}
+
+
+.btn{
+    border-radius: 30px;
+    padding: 5px 30px;
+}
+
+
+p{
+    color: #9F9E9E;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+
+.table-text{
+    color: #9F9E9E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+h5,th{
+    color: #1E1E1E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.has-search .form-control{
+    border-radius: 20px;
+}
+
+td p{
+    padding: 0px;
+    padding-top: 15px;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

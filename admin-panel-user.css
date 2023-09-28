@@ -99,14 +99,55 @@
 }
 
 
+.control-label{
+    color: #1E1E1E;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
+
+
+.form-group .has-search{
+    border-radius: 30px;
+     overflow: hidden;
+}
+
+.form-control-feedback{
+    border-radius: 30px;
+}
+
+.form-contro{
+    border-radius: 30px;
+}
 
 @media (max-width: 576px) {
     .btn.no-padding {
-        padding: 1px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         padding-left: 0;
         padding-right: 0;
         /* margin:5px; */
         /* ms-3 px-5 mt-3 */
+        
     }
+
+    .section-1-users{
+        color: #3D3D3D;
+        font-family: Rubik;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+    
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    
 }
