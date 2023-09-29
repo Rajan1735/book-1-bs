@@ -59,12 +59,84 @@
 
 
 .btn{
-    width:80px;
-    border-radius: 15px;
-    padding: 10px ;
-    gap:8px;
-    align-items: center;
+    border-radius: 25px;
+    padding: 8px 26px;
 }
+
+/* -------------------------------------modal box -------------------------------- */
+
+.custom-modal .modal-dialog {
+    max-width: 60%; /* You can adjust the percentage as needed */
+}
+
+
+#ModalLoginForm .modal-header {
+    border-bottom: none;
+}
+
+
+.add-user-modal-box{
+    padding:2px 30px;
+    border-radius: 25px;
+}
+.upload-image{
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 25px;
+    
+}
+
+
+.control-label{
+    color: #1E1E1E;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.form-group .has-search{
+    border-radius: 30px;
+     overflow: hidden;
+}
+
+.form-control-feedback{
+    border-radius: 30px;
+}
+
+.form-contro{
+    border-radius: 30px;
+}
+
+
+.upload-and-delete-button{
+    display: flex;
+    min-width: 130px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+}
+
+.edit-user-img{
+    
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------- */
 
 
 p{
@@ -112,6 +184,7 @@ td p{
 /* Add margin on the right side of the table */
 .table-responsive {
     margin-right: 20px; /* Adjust the margin as needed */
+    margin-left: 5px;
   }
   
   /* Set fixed widths for each column */
@@ -144,8 +217,12 @@ td p{
   
 
 
-@media (min-width: 768px) and (max-width: 992px) {
-    
+@media  (max-width: 1200px) {
+    .form-select{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
 }
 
 

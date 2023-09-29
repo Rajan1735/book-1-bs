@@ -44,12 +44,13 @@
                       <h4 class="mb-3 user-name">Sarah Wilson</h4>
                       <div class="d-flex justify-content-evenly">
                         <button type="button" class="btn btn-dark">Contact</button>
-                        <button type="button" class="btn btn-outline-dark">Edit</button>
+                        <button type="button" class="btn btn-outline-dark"  data-toggle="modal" data-target="#ModalLoginForm">Edit</button>
+                        
                     </div>
                 </div>
 
 
-                <div class="col-md-3">
+                <div class="col-md-3 mt-3">
                     <div class="">
                         <p class="mb-2">First Name</p>
                         <h5 class="mb-4">Sarah</h5>
@@ -65,7 +66,7 @@
                 </div>
 
 
-                <div class="col-md-3">
+                <div class="col-md-3  mt-3">
                     <div class="">
                         <p class="mb-2">Last Name</p>
                         <h5  class="mb-4">Wilson</h5>
@@ -81,7 +82,7 @@
                 </div>
 
 
-                <div class="col-md-3">
+                <div class="col-md-3  mt-3">
                     <div class="">
                         <p  class="mb-2">Email</p>
                         <h5  class="mb-4">Sarahwilson@gmail.com</h5>
@@ -96,7 +97,105 @@
                     </div>
                 </div>
             </div>
+<!-- -------------------------------------------------------------modal box------------------------------------------------------------------ -->
+                     
 
+                <!-- Modal HTML Markup -->
+                <div id="ModalLoginForm" class="modal fade ">
+                    <div class="modal-dialog   modal-xl modal-xxl modal-dialog-centered custom-modal" role="document">
+                        <div class="modal-content " >
+                            <div class="modal-header">
+                                <h1 class="modal-title section-1-users mt-3 mb-0 ms-3 ">Edit User</h1>
+                                <button type="button" class=" btn-close me-1 mt-0" data-dismiss="modal"></button>
+                                
+                            </div>
+
+                            <div class="row ">
+                                <div class="col-md-2 ms-4 mb-2 edit-user-img">
+                                    <img src="./images/rafaella-mendes-diniz-et_78QkMMQs-unsplash 1.svg" class="img-fluid rounded-4" alt="...">
+                                </div>
+                                <div class="col-md-4   d-flex  justify-content-center justify-content-start justify-content-evenly align-items-center">
+                                    <button type="button" class="btn btn-outline-dark upload-and-delete-button">Upload Image</button>
+                                    <button type="button" class="btn btn-outline-danger upload-and-delete-button">Delete Image</button>
+                                </div>
+                            </div>
+
+                            <div class=" border-bottom border-light-subtle  ms-4 me-4 mt-4 mb-0"></div>
+
+                            <div class="modal-body mt-3 mb-3 ms-3 me-3">
+                                <div class="row">
+                                <form role="form" method="POST" action="" class="col-12 col-md-12 ">
+                                    <div class="row mb-4">
+                                        <div class="form-group col-md-6 ">
+                                            <label class="control-label  mb-2 me-3">First Name</label>
+                                            <div>
+                                                <input type="text" class="form-control input-lg mb-3 " name="first_name" placeholder="Sarah">
+                                            </div>
+                                        </div>
+    
+                                        <div class="form-group col-md-6">
+                                            <label class="control-label mb-2 me-3">Last Name</label>
+                                            <div>
+                                                <input type="text" class="form-control input-lg " name="last_name" placeholder="Wilson">
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                                    <div class="row mb-4">
+                                        <div class="form-group col-md-6">
+                                            <label class="control-label  mb-2 me-3">Email</label>
+                                        <div>
+                                            <input type="email" class="form-control input-lg mb-3 " name="email" placeholder="sarahwilson11@gmail.com">
+                                        </div>
+                                        </div>
+    
+                                        <div class="form-group col-md-6">
+                                            <label class="control-label  mb-2 me-3">Phone</label>
+                                        <div>
+                                            <input type="text" class="form-control input-lg " name="phone" placeholder="+977 2543543241">
+                                        </div>
+                                        </div>
+                                    </div>
+    
+    
+                                    <div class="row mb-4">
+                                        <div class="form-group col-md-6">
+                                            <label class="control-label  mb-2 me-3">Location</label>
+                                            <div>
+                                                <input type="text" class="form-control input-lg mb-3 " name="location" placeholder="Mid Baneswor">
+                                            </div>
+                                        </div>
+    
+                                        <div class="form-group col-md-6">
+                                            <label class="control-label  mb-2 me-3">City</label>
+                                        <div>
+                                            <input type="text" class="form-control input-lg " name="city" placeholder="Kathmandu">
+                                        </div>
+                                        </div>
+                                    </div>
+    
+                                    
+                                </form>
+
+                                <div class=" border-bottom border-light-subtle m2-4 me-4 mt-0 mb-3"></div>
+
+                                 
+                                <div class="edit-user-buttons d-flex justify-content-end">
+                                    <button type="button" class="btn btn-dark">Save Changes</button>
+                                    <button type="button" class="btn btn-light">Discard Changes</button>
+                                   
+                                </div>
+
+                            </div>
+    
+    
+                            </div>
+    
+    
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div>
 
 
             <!-- -----------------------------next row-------------------------------------------- -->
@@ -184,7 +283,7 @@
 
 
                 <div class="row  mt-3 mb-3 ">
-                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+                    <div class="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
                         <!-- <p class="d-inline-block border border-1 p-2 rounded p-2 img-thumbnail">
                             5 <img src="images/chevron-down.svg" class="">
                         </p> -->
@@ -195,13 +294,13 @@
                             <option value="3">3</option>
                           </select>
                     </div>
-                    <div class="col-5 col-sm-5 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mt-3">
+                    <div class="col-6 col-sm-5 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mt-3">
                         <p>Showing 5 users out of 50</p>
                     </div>
     
     
     
-                    <div class="col-12 col-sm-9 col-md-5 col-lg-5 col-xl-5 col-xxl-5 offset-md-1 offset-lg-3 offset-xl-3 offset-xxl-3">
+                    <div class="col-7 col-sm-9  col-md-4 col-lg-5 col-xl-5 col-xxl-5 offset-3 offset-lg-3 offset-xl-3 offset-xxl-3">
                         <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-end">
                               <li class="page-item ">
