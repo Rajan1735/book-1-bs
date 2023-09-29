@@ -39,9 +39,9 @@
             <div class="row border  pt-5 pb-5 p-3 mt-5 user-card ">
                 <div class="col-md-3 text-center">
                       <div class="first-row">
-                        <img src="images/rafaella-mendes-diniz-et_78QkMMQs-unsplash 1.svg" class="rounded-circle mb-1">
+                        <img src="images/rafaella-mendes-diniz-et_78QkMMQs-unsplash 1.svg" class="rounded-circle mb-3">
                       </div>
-                      <h4 class="mb-2">Sarah Wilson</h4>
+                      <h4 class="mb-3 user-name">Sarah Wilson</h4>
                       <div class="d-flex justify-content-evenly">
                         <button type="button" class="btn btn-dark">Contact</button>
                         <button type="button" class="btn btn-outline-dark">Edit</button>
@@ -51,7 +51,7 @@
 
                 <div class="col-md-3">
                     <div class="">
-                        <p class="mb-1">First Name</p>
+                        <p class="mb-2">First Name</p>
                         <h5 class="mb-4">Sarah</h5>
                     </div>
                     <div class="">
@@ -60,7 +60,7 @@
                     </div>
                     <div class="">
                         <p class="mb-2">Department</p>
-                        <h5  class="mb-0">Devfinity Office</h5>
+                        <h5  class="mb-4">Devfinity Office</h5>
                     </div>
                 </div>
 
@@ -102,10 +102,10 @@
             <!-- -----------------------------next row-------------------------------------------- -->
 
             
-            <div class="row border mt-5 user-card">
+            <div class="row border mt-5 mb-5 user-card">
 
-                <h4 class="mt-3 mb-4">Books History</h4>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-3 mr-5">
+                <h4 class="mt-4 mb-4 ms-2">Books History</h4>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-3 me-2 ms-2 ">
                   <div class="table-responsive">
                      <table class="table table-bordered ">
                         <thead>
@@ -113,17 +113,22 @@
                             <th scope="col table-heading">S.N</th>
                             <th scope="col table-heading ">Book Name </th>
                             <th scope="col table-heading">Author Name </th>
-                            <th scope="col table-heading">Status <img src="images/chevron-down.svg" alt=""></th>
+                            <th scope="col table-heading"><select class="form-select border-0 p-0" aria-label="Default select example">
+                                <option selected>Status</option>
+                                <option value="1">Returned</option>
+                                <option value="2">Borrowed</option>
+                               
+                              </select></th>
                             <th scope="col table-heading">Borrowed Date</th>
                             <th scope="col table-heading">Returned Date</th>
                           </tr>
                         </thead>
 
                         <tbody class="table-text">
-                          <tr>
+                          <tr >
                             <td ><p>1</p></td>
-                            <td><p> Utsav Adhikari</p></td>
-                            <td><p>Devfinity office</p></td>
+                            <td><p> Code Red by Vince Flynn</p></td>
+                            <td><p>Charlotte Vassell</p></td>
                             <td class="active-text-green" ><p style="color: green;">Returned</p></td>
                             <td><p>20-08-2023</p></td>
                             <td><p>20-08-2023</p></td>
@@ -131,8 +136,8 @@
 
                           <tr >
                             <td ><p>2</p></td>
-                            <td><p>Adhikari Utsav</p></td>
-                            <td><p>Devfinity office</p></td>
+                            <td><p>Tom Lake by Ann Patchett</p></td>
+                            <td><p>Jessica George.</p></td>
                             <td class="active-text-green" ><p style="color: green;">Returned</p></td>
                             <td><p>20-08-2023</p></td>
                             <td><p>20-08-2023</p></td>
@@ -143,8 +148,8 @@
 
                           <tr >
                             <td ><p>3</p></td>
-                            <td><p>Adhikari</p></td>
-                            <td><p>Devfinity office</p></td>
+                            <td><p>The Vaster Wilds by Lauren Groff</p></td>
+                            <td><p>Catherine Newman</p></td>
                             <td class="active-text-green" ><p style="color: green;">Returned</p></td>
                             <td><p>20-08-2023</p></td>
                             <td><p>20-08-2023</p></td>
@@ -153,8 +158,8 @@
 
                           <tr >
                             <td ><p>4</p></td>
-                            <td><p>Adhikari Utsav</p></td>
-                            <td><p>Devfinity office</p></td>
+                            <td><p>Fall of Ruin and Wrath by Jennifer </p></td>
+                            <td><p> Aidan Cottrell-Boyce.</p></td>
                             <td class="active-text-green" ><p style="color: red;">Borrowed</p></td>
                             <td><p>20-08-2023</p></td>
                             <td><p>20-08-2023</p></td>
@@ -163,8 +168,8 @@
 
                           <tr >
                             <td ><p>5</p></td>
-                            <td><p>Adhikari</p></td>
-                            <td><p>Devfinity office</p></td>
+                            <td><p>Lessons in Chemistry by Bonnie Garmus</p></td>
+                            <td><p>Monica Heisey</p></td>
                             <td class="active-text-green" ><p style="color: red;">Borrowed</p></td>
                             <td><p>20-08-2023</p></td>
                             <td><p>20-08-2023</p></td>
@@ -179,21 +184,24 @@
 
 
                 <div class="row  mt-3 mb-3 ">
-                    <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1">
-                        <p class="d-inline-block border border-1 p-2 rounded p-2 img-thumbnail">
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+                        <!-- <p class="d-inline-block border border-1 p-2 rounded p-2 img-thumbnail">
                             5 <img src="images/chevron-down.svg" class="">
-                        </p>
+                        </p> -->
+                        <select class="form-select ps-3 ms-2 me-5 " aria-label="Default select example">
+                            <option selected class="">5</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
                     </div>
                     <div class="col-5 col-sm-5 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mt-3">
                         <p>Showing 5 users out of 50</p>
                     </div>
     
-                    <div class="col-0 col-sm-0 col-md-1 col-lg-3 col-xl-3 col-xxl-3">
-                        <!-- empty division-------------------------------------------------------- -->
-                    </div>
     
     
-                    <div class="col-12 col-sm-9 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                    <div class="col-12 col-sm-9 col-md-5 col-lg-5 col-xl-5 col-xxl-5 offset-md-1 offset-lg-3 offset-xl-3 offset-xxl-3">
                         <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-end">
                               <li class="page-item ">
@@ -202,6 +210,7 @@
     
                               <li class="page-item disabled "><a class="page-link text-black" href="#"  aria-disabled="true">1</a></li>
                               <li class="page-item "><a class="page-link text-black" href="#">2</a></li>
+                              <li class="page-item "><a class="page-link text-black" href="#">3</a></li>
                               <li class="page-item "><a class="page-link text-black" href="#">...</a></li>
                               <li class="page-item "><a class="page-link text-black" href="#">8</a></li>
                               <li class="page-item "><a class="page-link text-black" href="#">9</a></li>

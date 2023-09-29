@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster+Two&family=Patua+One&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500&family=Rubik:wght@300;600&family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster+Two&family=Patua+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&family=Rubik:wght@300;600&family=Sniglet&display=swap');
 
 *{
     margin: 0;
@@ -17,6 +17,10 @@
     font-weight: 600;
     line-height: normal;
 
+}
+
+.user-name{
+    font-size: 18px;
 }
 
 .has-search .form-control {
@@ -49,13 +53,17 @@
 
 .user-card{
     border-radius: 20px;
-    border: 1px solid rgb(126, 126, 123);
+    /* border: 1px solid rgb(126, 126, 123); */
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.15);
 }
 
 
 .btn{
-    border-radius: 30px;
-    padding: 5px 30px;
+    width:80px;
+    border-radius: 15px;
+    padding: 10px ;
+    gap:8px;
+    align-items: center;
 }
 
 
@@ -95,8 +103,45 @@ h5,th{
 
 td p{
     padding: 0px;
-    padding-top: 15px;
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
+
+
+
+/* Add margin on the right side of the table */
+.table-responsive {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  /* Set fixed widths for each column */
+  .table.table-bordered th.scope-col.table-heading:nth-child(1),
+  .table.table-bordered td:nth-child(1) {
+    width: 40px; /* Adjust the width for the S.N column */
+  }
+  
+  .table.table-bordered th.scope-col.table-heading:nth-child(2),
+  .table.table-bordered td:nth-child(2) {
+    width: 200px; /* Adjust the width for the Book Name column */
+  }
+  
+  .table.table-bordered th.scope-col.table-heading:nth-child(3),
+  .table.table-bordered td:nth-child(3) {
+    width: 80px; /* Adjust the width for the Author Name column */
+  }
+  
+  .table.table-bordered th.scope-col.table-heading:nth-child(4),
+  .table.table-bordered td:nth-child(4) {
+    width: 80px; /* Adjust the width for the Status column */
+  }
+  
+  .table.table-bordered th.scope-col.table-heading:nth-child(5),
+  .table.table-bordered td:nth-child(5),
+  .table.table-bordered th.scope-col.table-heading:nth-child(6),
+  .table.table-bordered td:nth-child(6) {
+    width: 80px; /* Adjust the width for Borrowed Date and Returned Date columns */
+  }
+  
 
 
 @media (min-width: 768px) and (max-width: 992px) {
