@@ -110,7 +110,14 @@
 }
 
 .form-contro{
-    border-radius: 30px;
+    
+    border-radius: 15px;
+    
+}
+
+.form-control.input-lg::placeholder {
+    font-size: 16px; 
+   
 }
 
 
@@ -125,16 +132,72 @@
     border: 1px solid #EAEAEA;
 }
 
-.edit-user-img{
+
+
+
+.admin-edit-user-upload{
+    display: flex;
+    min-width: 130px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.admin-edit-user-delete{
+    display: flex;
+    min-width: 130px;
+    padding: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+    background: #FFF5F6;
     
 }
 
+.control-label{
+    color: #1E1E1E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
 
+.btn-close{
+    font-size: 20px;
+}
 
+.admin-edit-save{
+    display: flex;
+    height: 41px;
+    min-width: 150px;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    background: #1E1E1E;
+}
 
-
-
-
+.admin-edit-discard{
+    display: flex;
+    height: 41px;
+    min-width: 150px;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    
+}
 
 /* --------------------------------------------------------- */
 
