@@ -13,13 +13,13 @@
 
     <section class="section-1 mt-5">
         <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-4 col-lg-5 col-xl-3 col-xxl-3 ">
+            <div class="row d-flex justify-content-between">
+                <div class="col-2 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 ">
                     <h1 class="section-1-users">Books </h1>
                 </div>
 
 
-                <div class="col-5 col-sm-5 col-md-5 col-lg-4 col-xl-5 col-xxl-5 offset-0 offset-sm-1 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
+                <div class="col-6 col-sm-5 col-md-5 col-lg-6 col-xl-5 col-xxl-5 offset-0 offset-sm-1 offset-md-1 offset-lg-2 offset-xl-3 offset-xxl-3">
                     <div class="form-group has-search rounded-5" >
                         <span class="form-control-feedback" ><img src="images/search 1.svg" class=" pb-1"></span>
                         <input type="text" class="form-control rounded-5" placeholder="Search by book,title,author" >
@@ -27,46 +27,49 @@
                     
                 </div>
 
-                <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1 ">
-                    <img src="images/Vector.svg" class="img-thumbnail notification-icon ms-5 p-2">
+                <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1 me-lg-4">
+                    <img src="images/Vector.svg" class="img-thumbnail notification-icon ms-5 p-2 ms-lg-">
                 </div>
 
             </div>
 
                <!-- ----------------------------------------------------------------------------next row---------------------------------------- -->
 
-            <div class="row">
-                <div class=" col -12 d-flex justify-content-between">
-                    <div class=" col -4 admin-books d-flex justify-content-between mt-5">
-                        <h5 class="all-books me-4">All Books</h5>
-                        <h5 class=" me-4">Available</h5>
-                        <h5 class=" me-4">Booked</h5>
-                        
-                    </div>
 
-                    <div class=" col-8 books-button mt-4 mb-4">
+            <div class="row">
+                <!-- Left Side -->
+                <div class=" col-12 col-sm-10 col-md-2 col-lg-6">
+                    <div class="admin-books d-flex justify-content-start mt-5">
+                        <h5 class="all-books me-4">All Books</h5>
+                        <h5 class="me-4">Available</h5>
+                        <h5 class="me-4">Booked</h5>
+                    </div>
+                </div>
+            
+                <!-- Right Side -->
+                <div class=" col-12 col-sm-12 col-md-10 col-lg-6 mt-4 mb-4 d-flex justify-content-end align-items-center">
+                    <div class="">
                         <button type="button" class="btn btn-outline-dark me-4 btn-text">
-                            <select class="form-select ps-3 ms-2 me-5  border-0" aria-label="Default select example">
-                            <option selected class=" ">Sort By</option>
-                            <option value="1">Popularity</option>
-                            <option value="2">A to Z</option>
-                            <option value="3">Z to A</option>
-                            <option value="3">Genre</option>
-                          </select>
+                            <select class="form-select ps-3 ms-2 me-5 border-0" aria-label="Default select example">
+                                <option selected class="">Sort By</option>
+                                <option value="1">Popularity</option>
+                                <option value="2">A to Z</option>
+                                <option value="3">Z to A</option>
+                                <option value="4">Genre</option>
+                            </select>
                         </button>
-                        <button type="button" class="btn bg-black  ps-3 pt-3 pb-3 ms-2 text-white btn-text">
-                            Add Books +
-                           
-                        </button>
+                        <button type="button" class="btn bg-black ps-3 pt-3 pb-3 ms-2 text-white btn-text">Add Books +</button>
                     </div>
                 </div>
             </div>
+            
+            
 
           <!-- books card------------------------------------------------- -->
 
           <div class="row mb-5 mt-5">
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 mb-5" >
                 <div class="card-body">
                     <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
@@ -74,9 +77,9 @@
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
+                    <div class="d-flex justify-content-between align-items-center ">
                         <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -91,18 +94,18 @@
             </div>
 
 
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 mb-5" >
                 <div class="card-body">
                     <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
-                        <h6 class="books-b ">B</h6>
+                        <h6 class="books-a ">A</h6>
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
+                    <div class="d-flex justify-content-between align-items-center ">
                         <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -117,8 +120,8 @@
             </div>
 
 
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 mb-5" >
                 <div class="card-body">
                     <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
@@ -126,9 +129,9 @@
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
+                    <div class="d-flex justify-content-between align-items-center ">
                         <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -143,19 +146,18 @@
             </div>
 
 
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-1 " >
                 <div class="card-body">
-                    <div class=" d-flex justify-content-between align-baseline">
+                    <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
                         <h6 class="books-a ">A</h6>
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class=""><p class="card-text">-10 Reads-</p></div>
-                        
-                        <div class="books-img">
+                    <div class="d-flex justify-content-between align-items-center ">
+                        <p class="card-text">-10 Reads-</p>
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -171,9 +173,9 @@
             
           </div>
 
-          <div class="row mb-5 mt-5">
-            <div class="col-md-3">
-                <div class="card" >
+          <div class="row mb-5 mt-5 ">
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5" >
                 <div class="card-body">
                     <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
@@ -181,9 +183,9 @@
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
+                    <div class="d-flex justify-content-between align-items-center ">
                         <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -198,18 +200,18 @@
             </div>
 
 
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 mb-5" >
                 <div class="card-body">
                     <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
-                        <h6 class="books-b ">B</h6>
+                        <h6 class="books-a ">A</h6>
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
+                    <div class="d-flex justify-content-between align-items-center ">
                         <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -224,8 +226,8 @@
             </div>
 
 
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 mb-5" >
                 <div class="card-body">
                     <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
@@ -233,9 +235,9 @@
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
+                    <div class="d-flex justify-content-between align-items-center ">
                         <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -250,19 +252,18 @@
             </div>
 
 
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 " >
                 <div class="card-body">
-                    <div class=" d-flex justify-content-between align-baseline">
+                    <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
                         <h6 class="books-a ">A</h6>
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class=""><p class="card-text">-10 Reads-</p></div>
-                        
-                        <div class="books-img">
+                    <div class="d-flex justify-content-between align-items-center ">
+                        <p class="card-text">-10 Reads-</p>
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -280,35 +281,9 @@
 
 
 
-          <div class="row mb-5 mt-5">
-            <div class="col-md-3">
-                <div class="card" >
-                <div class="card-body">
-                    <div class=" d-flex justify-content-between">
-                        <p >Khaled Hosseini</p>
-                        <h6 class="books-b ">B</h6>
-                        
-                    </div>
-                    <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
-                        <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
-                            <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
-                            <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
-                            <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
-                            <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
-                            <span class="number-reads">+7</span>
-                            
-                        </div>
-                    </div>
-
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-md-3">
-                <div class="card" >
+          <div class="row mb-5 mt-5 ">
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 mb-5" >
                 <div class="card-body">
                     <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
@@ -316,9 +291,9 @@
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
+                    <div class="d-flex justify-content-between align-items-center ">
                         <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -333,8 +308,8 @@
             </div>
 
 
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 mb-5" >
                 <div class="card-body">
                     <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
@@ -342,9 +317,9 @@
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-md-between">
+                    <div class="d-flex justify-content-between align-items-center ">
                         <p class="card-text">-10 Reads-</p>
-                        <div class="books-img">
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -359,19 +334,44 @@
             </div>
 
 
-            <div class="col-md-3">
-                <div class="card" >
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 mb-5" >
                 <div class="card-body">
-                    <div class=" d-flex justify-content-between align-baseline">
+                    <div class=" d-flex justify-content-between">
                         <p >Khaled Hosseini</p>
-                        <h6 class="books-b ">B</h6>
+                        <h6 class="books-a ">A</h6>
                         
                     </div>
                     <h5 class="book-title mb-4">The Da Vinci Code</h5>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class=""><p class="card-text">-10 Reads-</p></div>
+                    <div class="d-flex justify-content-between align-items-center ">
+                        <p class="card-text">-10 Reads-</p>
+                        <div class="books-img ms-sm-5">
+                            <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
+                            <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
+                            <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
+                            <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
+                            <span class="number-reads">+7</span>
+                            
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class=" col-sm-12  col-md-6 col-lg-6 col-xl-3 ">
+                <div class="card mb-sm-5 " >
+                <div class="card-body">
+                    <div class=" d-flex justify-content-between">
+                        <p >Khaled Hosseini</p>
+                        <h6 class="books-a ">A</h6>
                         
-                        <div class="books-img">
+                    </div>
+                    <h5 class="book-title mb-4">The Da Vinci Code</h5>
+                    <div class="d-flex justify-content-between align-items-center ">
+                        <p class="card-text">-10 Reads-</p>
+                        <div class="books-img ms-sm-5">
                             <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.png" class=" rounded-5">
                             <img src="./images/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.png" class=" rounded-5">
                             <img src="./images/aiony-haust-3TLl_97HNJo-unsplash (1).png" class=" rounded-5">
@@ -392,10 +392,8 @@
 
             <!-- -------------------------------next row------------------------ -->
        
-
-
                 <div class="row  mt-3 mb-3 ">
-                    <div class="col-7 col-sm-9  col-md-4 col-lg-5 col-xl-5 col-xxl-5 offset-md-4 offset-lg-4 offset-xl-7 offset-xxl-7">
+                    <div class="col-12 col-sm-12  col-md-4 col-lg-6 col-xl-5 col-xxl-5 offset-md-8 offset-lg-6 offset-xl-7 offset-xxl-7">
                         <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-end">
                               <li class="page-item ">
