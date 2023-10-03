@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster+Two&family=Patua+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&family=Rubik:wght@300;600&family=Sniglet&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+
+}
+
+.user-name{
+    font-size: 18px;
+}
+
+.user-name{
+    font-size: 18px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    
+}
+
+.form-group .has-search{
+    border-radius: 50px;
+}
+
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+.notification-icon{
+    padding: 5px;
+    border: 1px solid rgb(237, 231, 231);
+}
+.form-group .has-search{
+    border-radius: 50px;
+}
+
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+.notification-icon{
+    padding: 5px;
+    border: 1px solid rgb(237, 231, 231);
+    border-radius: 30%;
+}
+
+.user-card{
+    border-radius: 20px;
+    /* border: 1px solid rgb(126, 126, 123); */
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn{
+    border-radius: 25px;
+    padding: 8px 26px;
+}
+
+
+
+
+
+.form-group .has-search{
+    border-radius: 30px;
+     overflow: hidden;
+}
+
+.form-control-feedback{
+    border-radius: 30px;
+}
+
+.form-contro{
+    
+    border-radius: 15px;
+    
+}
+
+.form-control.input-lg::placeholder {
+    font-size: 16px; 
+   
+}
+
+
+.upload-and-delete-button{
+    display: flex;
+    min-width: 130px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+}
+
+
+
+
+.admin-edit-user-upload{
+    display: flex;
+    min-width: 130px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.admin-edit-user-delete{
+    display: flex;
+    min-width: 130px;
+    padding: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+    background: #FFF5F6;
+    
+}
+
+.control-label{
+    color: #1E1E1E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.btn-close{
+    font-size: 20px;
+}
+
+.admin-edit-save{
+    display: flex;
+    height: 41px;
+    min-width: 150px;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    background: #1E1E1E;
+}
+
+.admin-edit-discard{
+    display: flex;
+    height: 41px;
+    min-width: 150px;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    
+}
+
+/* --------------------------------------------------------- */
+
+
+p{
+    color: #9F9E9E;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+
+.table-text{
+    color: #9F9E9E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.admin-books {
+    color: #9F9E9E;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.all-books{
+    color: #1E1E1E;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;   
+    
+}
+
+
+.btn{
+    width: 170px;
+    border-radius: 10px;
+    padding: 6px 18px;
+    border: 1px solid #1E1E1E;
+}
+
+.btn-text{
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.card-body{
+    background: #FFF;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.15);
+}
+
+.books-a{
+    padding: 5px 7px;
+    gap: 8px;
+    border-radius: 52px;
+    background: #5CA202;
+    color: #FFF;
+    
+}
+
+.books-b{
+    padding: 5px 7px;
+    gap: 8px;
+    border-radius: 52px;
+    background: #C22A34;
+    color: #FFF;
+}
+
+.books-img{
+    margin-left: -16px;
+    margin-top: -4px;
+}
+
+
+.books-img img{
+    margin-left: -16px;
+   
+}
+
+.number-reads{
+    height: 30px;
+    padding: 2px 8px 5px 5px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: #1E1E1E;
+    color: #EAEAEA;
+    margin-left: -20px;
+    
+}
+
+p{
+    color: #9F9E9E;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.book-title{
+    margin-top: -12px;
+    color: #3D3D3D;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+@media (max-width: 575px) {
+    .books-button{
+        padding: 5px;
+        
+
+    }
+  }
+
